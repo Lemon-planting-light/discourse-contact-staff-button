@@ -1,0 +1,36 @@
+recipients:
+  type: string
+  default: 'staff'
+  description: 
+    en: "Add recipients to account deletion PM. You can add multiple recipients username or group separate with comma. <br> For example: admins, moderators <br> Note: The selected group have to accept personal messages."
+    zh_CN: "私信的默认参与者列表，以逗号分隔。可以是用户，也可以是群组。"
+about_post:
+  type: string
+  default: '对于帖子'
+content_of:
+  type: string
+  default: '中的'
+end_greeting:
+  type: string
+  default: '我有一些看法：'
+title_topic:
+  type: string
+  default: '话题「'
+title_end:
+  type: string
+  default: '」需要被注意'
+  
+min_trust_level:
+  default: 0
+  type: enum
+  description: "显示按钮的最小信任等级"
+  choices:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+svg_icon: 
+  default: 'frown'
+  type: 'string'
+  description: 'SVG icon of button'
