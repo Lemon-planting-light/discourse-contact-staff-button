@@ -25,7 +25,6 @@ export default {
                     return `${settings.title_topic}${window.document.title}${settings.title_end}`;
                 }
                 api.attachWidgetAction("post-menu", "messageSend", function () {
-                    console.log(this.attrs)
                     const composerController = getOwner(this).lookup("controller:composer");
 
                     composerController.open({
