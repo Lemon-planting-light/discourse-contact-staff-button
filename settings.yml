@@ -23,7 +23,9 @@ title_end:
 min_trust_level:
   default: 0
   type: enum
-  description: "显示按钮的最小信任等级"
+  description: 
+    en: "Minimum required trust level for the button to be visible in the post menu"
+    zh_CN: "显示按钮的最小信任等级"
   choices:
     - 0
     - 1
